@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="38" height="38" viewBox="0 0 38 38">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-Linkedin);
+      }
+
+      .cls-2 {
+        fill: #e10a0a;
+      }
+    </style>
+    <clipPath id="clip-Linkedin">
+      <rect width="38" height="38"/>
+    </clipPath>
+  </defs>
+  <g id="Linkedin" class="cls-1">
+    <g id="linkedin_icon" data-name="linkedin icon">
+      <path id="Path_287" data-name="Path 287" class="cls-2" d="M957.138,674.933h-3.863v-6.075c0-1.4,0-3.272-1.988-3.272s-2.342,1.519-2.342,3.155v6.192h-3.863v-12.5h3.746v1.752a4.03,4.03,0,0,1,3.629-1.986c3.979,0,4.681,2.57,4.681,5.959Zm-16.5-14.137a2.324,2.324,0,0,1-2.223-2.337,2.3,2.3,0,0,1,2.223-2.22,2.22,2.22,0,0,1,2.224,2.22,2.248,2.248,0,0,1-2.224,2.337m1.99,14.137h-3.862v-12.5h3.862Zm5.151-28.041A18.694,18.694,0,1,0,966.5,665.586a18.766,18.766,0,0,0-18.728-18.694" transform="translate(-929.046 -646.892)"/>
+    </g>
+  </g>
+</svg>

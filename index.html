@@ -1,0 +1,229 @@
+<html>
+
+<head>
+  <title>Virgin Megastore</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    *,
+    :after,
+    :before {
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      -ms-text-size-adjust: 100%;
+      -webkit-text-size-adjust: 100%;
+      font-family: 'Raleway', sans-serif;
+      color: #000000;
+    }
+
+    .container {
+      margin: 0 auto;
+      padding-top: 85px;
+      display: flex;
+      flex-flow: column wrap;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+    }
+
+    .category__logo {
+      position: fixed;
+      top: 0;
+      left: 0;
+      background-color: #fff;
+      width: 100%;
+      padding: 10px 20px;
+      box-shadow: 0 3px 6px 0 rgb(0 0 0 / 16%);
+    }
+
+    .category__title {
+      text-align: center;
+    }
+
+    .category__title h1 {
+      font-size: 100px;
+      margin: 0;
+    }
+
+    .category__title p {
+      font-size: 22px;
+      margin: 10px 0 0;
+    }
+
+    .category__social {
+      margin: 30px 0;
+      text-align: center;
+    }
+
+    .category__social h3 {
+      font-size: 22px;
+      margin: 25px 0;
+    }
+
+    .category__social ul {
+      margin: 0;
+      padding: 0;
+    }
+
+    .category__social ul li {
+      display: inline-block;
+      padding: 0 5px;
+    }
+
+    .category__form {
+      margin: 30px 0;
+    }
+
+    .category__form iframe {
+      max-width: 100%;
+      width: 459px;
+      height: 52px !important;
+    }
+
+    @media screen and (max-width: 640px) {
+      .category__title h1 {
+        font-size: 75px;
+      }
+
+      .category__title p {
+        font-size: 14px;
+      }
+
+      .category__social h3 {
+        font-size: 18px;
+        margin-bottom: 15px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <section>
+      <div class="category__logo">
+        <img src="img/logo.svg" alt="Virgin Megastore" />
+      </div>
+    </section>
+    <section>
+      <div class="category__title">
+        <h1>
+          COMING SOON
+        </h1>
+        <p>
+          Stay tuned for something amazing! Sign up to find out when it’s ready
+        </p>
+      </div>
+    </section>
+    <section>
+      <div class="category__form">
+        <iframe id="JotFormIFrame-210620600565444" title="Coming Soon - Oman" onload="window.parent.scrollTo(0,0)"
+          allowtransparency="true" allowfullscreen="true" allow="geolocation; microphone; camera"
+          src="https://form.jotform.com/210620600565444" frameborder="0" scrolling="no">
+        </iframe>
+      </div>
+    </section>
+    <section>
+      <div class="category__social">
+        <h3>
+          Connect with us
+        </h3>
+        <ul>
+          <li>
+            <a href="https://www.facebook.com/virginmena/" target="_blank">
+              <img src="img/Facebook.svg" alt="Facebook" />
+            </a>
+          </li>
+          <li>
+            <a href="https://instagram.com/virginmegastoreme" target="_blank">
+              <img src="img/Instagram.svg" alt="Instagram" />
+            </a>
+          </li>
+          <li>
+            <a href="https://twitter.com/VirginMENA" target="_blank">
+              <img src="img/Twitter.svg" alt="Twitter" />
+            </a>
+          </li>
+          <li>
+            <a href="https://www.snapchat.com/add/virginmena" target="_blank">
+              <img src="img/Snapchat.svg" alt="Snapchat" />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </div>
+    <script type="text/javascript">
+      var ifr = document.getElementById("JotFormIFrame-210620600565444");
+      if (ifr) {
+        var src = ifr.src;
+        var iframeParams = [];
+        if (window.location.href && window.location.href.indexOf("?") > -1) {
+          iframeParams = iframeParams.concat(window.location.href.substr(window.location.href.indexOf("?") + 1).split('&'));
+        }
+        if (src && src.indexOf("?") > -1) {
+          iframeParams = iframeParams.concat(src.substr(src.indexOf("?") + 1).split("&"));
+          src = src.substr(0, src.indexOf("?"))
+        }
+        iframeParams.push("isIframeEmbed=1");
+        ifr.src = src + "?" + iframeParams.join('&');
+      }
+      window.handleIFrameMessage = function (e) {
+        if (typeof e.data === 'object') { return; }
+        var args = e.data.split(":");
+        if (args.length > 2) { iframe = document.getElementById("JotFormIFrame-" + args[(args.length - 1)]); } else { iframe = document.getElementById("JotFormIFrame"); }
+        if (!iframe) { return; }
+        switch (args[0]) {
+          case "scrollIntoView":
+            iframe.scrollIntoView();
+            break;
+          case "setHeight":
+            iframe.style.height = args[1] + "px";
+            break;
+          case "collapseErrorPage":
+            if (iframe.clientHeight > window.innerHeight) {
+              iframe.style.height = window.innerHeight + "px";
+            }
+            break;
+          case "reloadPage":
+            window.location.reload();
+            break;
+          case "loadScript":
+            var src = args[1];
+            if (args.length > 3) {
+              src = args[1] + ':' + args[2];
+            }
+            var script = document.createElement('script');
+            script.src = src;
+            script.type = 'text/javascript';
+            document.body.appendChild(script);
+            break;
+          case "exitFullscreen":
+            if (window.document.exitFullscreen) window.document.exitFullscreen();
+            else if (window.document.mozCancelFullScreen) window.document.mozCancelFullScreen();
+            else if (window.document.mozCancelFullscreen) window.document.mozCancelFullScreen();
+            else if (window.document.webkitExitFullscreen) window.document.webkitExitFullscreen();
+            else if (window.document.msExitFullscreen) window.document.msExitFullscreen();
+            break;
+        }
+        var isJotForm = (e.origin.indexOf("jotform") > -1) ? true : false;
+        if (isJotForm && "contentWindow" in iframe && "postMessage" in iframe.contentWindow) {
+          var urls = { "docurl": encodeURIComponent(document.URL), "referrer": encodeURIComponent(document.referrer) };
+          iframe.contentWindow.postMessage(JSON.stringify({ "type": "urls", "value": urls }), "*");
+        }
+      };
+      if (window.addEventListener) {
+        window.addEventListener("message", handleIFrameMessage, false);
+      } else if (window.attachEvent) {
+        window.attachEvent("onmessage", handleIFrameMessage);
+      }
+    </script>
+</body>
+
+</html>
